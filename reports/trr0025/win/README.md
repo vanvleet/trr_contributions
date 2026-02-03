@@ -4,7 +4,7 @@
 
 | Key          | Value                                      |
 |--------------|--------------------------------------------|
-| ID           | TRR0000                                    |
+| ID           | TRR0025                                    |
 | External IDs | [T1055.004], [T1055.001], [T1055.002]      |
 | Tactics      | Defense Evasion, Privilege Escalation      |
 | Platforms    | Windows                                    |
@@ -119,7 +119,7 @@ Here is the function definition for `QueueUserApc`:
 
 | ID                  | Title            | Tactic            |
 |---------------------|------------------|-------------------|
-| TRR0000.WIN.A       | Queue Remote APC | Defense Evasion, Privilege Escalation    |
+| TRR0025.WIN.A       | Queue Remote APC | Defense Evasion, Privilege Escalation    |
 
 ### Procedure A: Queue Remote APC
 
@@ -136,13 +136,13 @@ The operations in gray are optional. An attacker can simply wait for a thread to
 become alertable, or they can trigger the APC to be called by creating a new
 thread or resuming a recently created suspended thread.
 
-![DDM - Queue Remote APC](ddms/trr0000_a.png)
+![DDM - Queue Remote APC](ddms/trr0025_a.png)
 
 ## Available Emulation Tests
 
 | ID            | Link             |
 |---------------|------------------|
-| TRR0000.WIN.A | [Atomic Tests #1-3]       |
+| TRR0025.WIN.A | [Atomic Tests #1-3]       |
 
 ## References
 
