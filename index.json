@@ -352,5 +352,29 @@
     },
     "last_update": "2026-02-03",
     "pub_date": "2026-02-03"
+  },
+  {
+    "name": "Process Injection via Thread Local Storage Callback",
+    "id": "TRR0026",
+    "tactics": [
+      "Defense Evasion",
+      "Privilege Escalation"
+    ],
+    "contributors": [
+      "Andrew VanVleet"
+    ],
+    "external_ids": [
+      "T1055.005",
+      "T1055.001",
+      "T1055.002"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "procedures": {
+      "A": "Malicious TLS Callback"
+    },
+    "last_update": "2026-02-09",
+    "pub_date": "2026-02-09"
   }
 ]

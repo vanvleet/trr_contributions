@@ -4,7 +4,7 @@
 
 | Key          | Value                                      |
 |--------------|--------------------------------------------|
-| ID           | TRR0000                                    |
+| ID           | TRR0026                                    |
 | External IDs | [T1055.005], [T1055.001], [T1055.002]      |
 | Tactics      | Defense Evasion, Privilege Escalation      |
 | Platforms    | Windows                                    |
@@ -181,7 +181,7 @@ A payload used for TLS injection needs to meet a few requirements:
 
 | ID                    | Title            | Tactic            |
 |-----------------------|------------------|-------------------|
-| TRR0000.WIN.A         | Malicious TLS Callback | Defense Evasion, Privilege Escalation    |
+| TRR0026.WIN.A         | Malicious TLS Callback | Defense Evasion, Privilege Escalation    |
 
 ### Procedure A: Malicious TLS Callback
 
@@ -197,13 +197,13 @@ TLS callbacks.
 
 #### Detection Data Model
 
-![DDM - Procedure Name 1](ddms/trr0000_a.png)
+![DDM - Procedure Name 1](ddms/trr0026_a.png)
 
 ## Available Emulation Tests
 
 | ID            | Link                 |
 |---------------|----------------------|
-| TRR0000.WIN.A | [TLSInject - GitHub] |
+| TRR0026.WIN.A | [TLSInject - GitHub] |
 
 ## References
 
