@@ -4,7 +4,7 @@
 
 | Key          | Value                          |
 |--------------|--------------------------------|
-| ID           | TRR0000                        |
+| ID           | TRR0027                        |
 | External IDs | [T1546.003]                    |
 | Tactics      | Persistence                    |
 | Platforms    | Windows                        |
@@ -229,7 +229,7 @@ Sysmon and CrowdStrike both provide telemetry, though.
 
 | ID               | Title            | Tactic            |
 |------------------|------------------|-------------------|
-| TRR0000.WIN.A    | Create a WMI Event Subscription | Persistence |
+| TRR0027.WIN.A    | Create a WMI Event Subscription | Persistence |
 
 ### Procedure A: Create a WMI Event Subscription
 
@@ -241,13 +241,13 @@ compiled into the WMI repository using `mofcomp.exe`.
 
 #### Detection Data Model
 
-![DDM - Procedure Name 1](ddms/trr0000_a.png)
+![DDM - Procedure Name 1](ddms/trr0027_a.png)
 
 ## Available Emulation Tests
 
 | ID            | Link               |
 |---------------|--------------------|
-| TRR0000.WIN.A | [Atomic Tests 1-3] |
+| TRR0027.WIN.A | [Atomic Tests 1-3] |
 
 ## References
 
